@@ -6,6 +6,7 @@ gnome-packagekit
 gnome-terminal
 xorg-x11-drivers
 gnu-free-mono-fonts
+vlgothic-fonts
 }.each do |pkg|
   package pkg do
     action :install
