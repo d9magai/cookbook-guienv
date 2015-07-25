@@ -7,6 +7,8 @@ gnome-terminal
 xorg-x11-drivers
 gnu-free-mono-fonts
 vlgothic-fonts
+control-center
+ibus-kkc
 }.each do |pkg|
   package pkg do
     action :install
