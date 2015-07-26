@@ -9,6 +9,7 @@ gnu-free-mono-fonts
 vlgothic-fonts
 control-center
 ibus-kkc
+gtk3-immodule-xim
 }.each do |pkg|
   package pkg do
     action :install
